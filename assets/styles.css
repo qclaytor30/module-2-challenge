@@ -33,6 +33,10 @@ li {
     flex: 1;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .row{
     width: 100%;
     max-width: 800px;
@@ -41,6 +45,10 @@ li {
 
 .text-green{
     color: rgb(8, 129, 8);
+}
+
+section:nth-child(even){
+    background-color: rgb(241, 241, 241);
 }
 
     /* Start Navigation Bar */
