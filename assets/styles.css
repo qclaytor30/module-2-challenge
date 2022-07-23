@@ -6,7 +6,13 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+span {
     color: #1d0f29;
     text-align: center;
     line-height: 1.25;
@@ -158,6 +164,14 @@ section:nth-child(even){
     flex-direction: column;
 }
 
+.works{
+    margin-bottom: 135px;
+}
+
+.works:last-child{
+    margin-bottom: 40px;
+}
+
 .work-img{
     width: 100%;
     transition: all 600ms ease;
@@ -185,7 +199,7 @@ section:nth-child(even){
 }
 
 .works:hover .works-wrapper:before{
-    opacity: .2;
+    opacity: .5;
 }
 
 .works:hover .work-img{
@@ -193,14 +207,43 @@ section:nth-child(even){
     transform: scale(1.05);
 }
 
+.works:hover .work-description {
+    opacity: 1;
+    transition: all 600ms ease;
+}
+
 .work-list{
     padding-top: 40px;
+
 }
 
 .work-description{
     position: absolute;
     top: 50%;
-    left: 90px;
+    left: 150px;
     max-width: 600px;
     transform: translateY(-50%);
+    z-index: 3;
+    opacity: 0;
 }
+
+.work-description-title{
+    font-size: 30px;
+}
+
+.work-description-subtitle{
+    margin: 12px 0px;
+}
+
+.work-description-link{
+    font-size: 18px;
+    margin: 12px 0;
+    text-decoration: none;
+    font-weight: 700px;
+}
+
+.work-description-title, .work-description-subtitle, .work-description-link {
+    text-align: left;
+    color: white;
+}
+
