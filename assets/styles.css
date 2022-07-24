@@ -250,5 +250,11 @@ section:nth-child(even){
 /* Start of Contact section */
 
 #contact {
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.contact-list {
+    margin-bottom: 135px;
+}
+
