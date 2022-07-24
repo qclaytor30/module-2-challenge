@@ -94,7 +94,7 @@ section:nth-child(even){
     }
 
     .person-name {
-        color: rgb(8, 129, 8);
+        color: black;
         font-size: 24px;
         font-weight: bolder;
         margin: 0 12px;
@@ -247,3 +247,8 @@ section:nth-child(even){
     color: white;
 }
 
+/* Start of Contact section */
+
+#contact {
+    min-height: 100vh;
+}
