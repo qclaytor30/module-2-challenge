@@ -276,6 +276,7 @@ section:nth-child(even){
 
 /* Media Queries */
 
+/* Small devices amnd Tablets */
 @media (max-width:768px){
     nav{
         height: 68px;
@@ -288,6 +289,7 @@ section:nth-child(even){
     }
 }
 
+/* Smaller devices and Phones */
 @media (max-width:480px){
     .nav-link:not(:last-child){
         display: none;
